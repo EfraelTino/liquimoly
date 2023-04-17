@@ -101,12 +101,19 @@ input::placeholder {
 .bg-segundo{
     background-color: rgba(93, 103, 135, .5);
 }
+.col-ss{
+    display: grid;
+    height: auto;
+}
 .tb-posicion, .tb-nombre, .tb-tiempo{
     font-family: 'Eurostile ExtendedTwo' sans-serif;
     font-weight: 900;
     color: #fff;
     font-size: 2vw;
     padding: 2vw 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .tb-posicion{
     background-image: url(img/puntos.png);
