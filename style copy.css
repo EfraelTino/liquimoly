@@ -1,0 +1,1217 @@
+:root {
+    --font-sans: font-family: sans-serif;
+    --main-color-red-claro: rgb(229, 0, 19);
+    --main-color-red-bajo: rgb(191, 13, 0);
+    --main-color-black: black;
+    --main-color-white: white;
+}
+
+
+.text-container {
+    margin: .5rem 0;
+}
+
+.logo-fanalca {
+    width: 100px;
+}
+
+.logo-recargate {
+    width: 300px;
+}
+
+.text-container-conectate {
+    margin: .5rem 0;
+    font-family: var(--font-sans);
+    font-style: italic;
+    line-height: 1.1rem;
+}
+
+.comienza {
+    font-family: var(--font-sans);
+    font-weight: 900;
+    background-color: rgba(0, 0, 0, .3);
+    border: 2px solid var(--main-color-white);
+    border-radius: 50px;
+    color: var(--main-color-white);
+    padding: .5rem 3rem;
+    font-style: italic;
+    -webkit-text--width: 0px;
+    text-shadow: -1px 0px 5px rgba(250, 255, 94, 0.75);
+}
+
+
+/* 2.html */
+.parent-form {
+    background-color: #231F20;
+    width: 100vw;
+    position: absolute;
+    bottom: 0;
+}
+
+.form-group .label-title {
+    font-family: var(--font-sans);
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-style: italic;
+    color: var(--main-color-white);
+    font-size: .8rem;
+}
+
+.form-group input {
+    border-radius: 50px;
+    font-weight: 800;
+    font-style: italic;
+    border: .01rem solid black;
+    outline: none;
+    text-indent: 10px;
+    font-family: var(--font-sans);
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.form-group input::placeholder {
+    font-family: var(--font-sans);
+    color: #C3C3C3;
+    font-weight: 300;
+    letter-spacing: 1px;
+    font-style: italic;
+
+}
+
+.form-group input:hover {
+    border: 0.01rem solid var(--main-color-red-claro);
+}
+
+.form-group input:focus {
+    border-color: var(--main-color-red-claro);
+    box-shadow: 0 1px 1px rgba(255, 255, 255, 0)inset,
+        0 0 8px rgba(255, 255, 255, 0);
+    outline: none !important;
+}
+
+.btn-ingresar {
+    font-family: var(--font-sans);
+    color: var(--main-color-white);
+    font-style: italic;
+    font-weight: 800;
+    background-color: var(--main-color-red-claro);
+    padding: .5rem 1.5rem;
+    border: 1px solid var(--main-color-white);
+    border-radius: 50px;
+}
+
+.ingresar {
+    height: auto;
+}
+
+.teminos-condiciones {
+    font-family: var(--font-sans);
+    font-style: italic;
+    font-weight: 900;
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+li {
+    list-style: none;
+    padding-left: 0;
+    font-size: 1.2rem;
+}
+
+ul li::before {
+    content: "\2022";
+    color: #FDD62F;
+    font-size: 1.5em;
+    /* margin-left: 0.5em; */
+}
+
+.cont-ingresa .ingresa-trivia {
+    font-family: var(--font-sans);
+    font-weight: 900;
+    background: none;
+    border: none;
+    font-style: italic;
+    text-transform: uppercase;
+    font-size: 1rem;
+}
+
+
+
+.logo-pequenio {
+    position: absolute;
+    top: 4%;
+    left: 0;
+}
+.cont_felicitaciones{
+    height: 100vw;
+    display: flex;
+    align-items: center;
+}
+.cont-logo-yuasa-2 .logo-yuasa {
+    width: 200px;
+}
+
+.logo-fanalca-4 {
+    position: absolute;
+    top: 4%;
+}
+
+.logo-recargate-4 {
+    width: 300px;
+
+}
+
+.contenedor_preguntas {
+    position: relative;
+    top: -25%;
+}
+
+.numero-encima {
+    position: absolute;
+    top: 18%;
+    left: 8%;
+    font-size: 1.3rem;
+    color: white;
+    font-weight: 900;
+    font-style: italic;
+}
+
+/* 
+.pregunta-encima {
+    position: absolute;
+    top: 52%;
+    left: 8%;
+    font-size: .7rem;
+    color: white;
+    font-weight: 800;
+    font-style: italic;
+    padding-right: 3rem !important;
+    -webkit-text--width: 0px;
+    text-shadow: -2px 0px 5px rgba(250, 255, 94, 0.75);
+
+} */
+
+.logo-recargate-6 {
+    width: 100px;
+}
+
+.tiempo-encima {
+    position: absolute;
+    top: 31%;
+    left: 89%;
+    font-size: 1rem;
+    color: white;
+    font-weight: 900;
+
+}
+
+.img-22 {
+    width: 300px;
+}
+
+.btn_puntajes {
+    background: none;
+    border: none;
+}
+
+.btn_puntajes .numero_respuesta {
+    color: white;
+    font-family: var(--font-sans);
+    font-weight: 700;
+    font-size: 3rem;
+    font-style: italic;
+
+}
+
+.total_puntaje {
+    position: relative;
+}
+
+.lo_lamento {
+    text-shadow: -2px 0px 5px rgba(250, 255, 94, 0.75);
+    font-weight: bold;
+    font-style: italic;
+}
+
+.total_puntaje h2 {
+    font-size: 5rem;
+    color: white;
+    font-weight: 800;
+    font-style: italic;
+
+}
+
+.btn_puntos {
+    background-color: rgba(0, 0, 0, .5);
+    border-radius: 70px;
+    font-size: 3rem;
+    padding: 0 5rem;
+    font-weight: 700;
+    font-style: 800;
+    font-style: italic;
+    color: white;
+    -webkit-text--width: 0px;
+    text-shadow: -2px 0px 5px rgba(250, 255, 94, 0.75);
+}
+
+.primero {
+    width: 300px;
+}
+
+.bg_premio {
+    background: url(img/3_nombre.png);
+    background-size: 100% 100%;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.texto-encima {
+    font-size: 1rem;
+    color: white;
+    font-weight: 900;
+    font-style: italic;
+    padding: 0;
+    margin: .5rem 0;
+}
+
+.ganar {
+    font-weight: 700;
+    font-family: var(--font-sans);
+    font-style: italic;
+    z-index: 10;
+    position: relative;
+    text-shadow: -1px 0px 1px rgba(250, 255, 94, 0.75);
+}
+
+.text-felicitaciones {
+    font-weight: 700;
+    font-style: italic;
+    -webkit-text--width: 0px;
+    text-shadow: -2px 0px 5px rgba(250, 255, 94, 0.75);
+    padding: 1rem 0rem;
+}
+
+.encima {
+    position: absolute;
+    top: calc(22% + 20px);
+    left: calc(15% + 15px);
+    display: block;
+    z-index: 1;
+    width: 60%;
+}
+
+.btn_container_redimir {
+    border-radius: 50px;
+    border: 2px solid white;
+    display: grid;
+}
+
+.btn_redimir {
+    margin: 10px;
+    border-radius: 50px;
+    background-color: white;
+    color: var(--main-color-red-claro);
+    font-weight: 800;
+    font-style: italic;
+    display: flex;
+    justify-content: center;
+    font-family: var(--font-sans);
+    padding: 0px 3rem;
+    box-shadow: 5px 5px 2px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 5px 5px 2px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 5px 5px 2px 0px rgba(0, 0, 0, 0.75);
+}
+
+
+.yuasa-7 {
+    width: 300px;
+}
+
+.ingresa_datos {
+    font-family: var(--font-sans);
+    font-weight: 900;
+    font-style: italic;
+    -webkit-text-fill-color: #000000;
+    -webkit-text-stroke-width: 1.4px;
+    -webkit-text-stroke-color: #ffffff;
+    -webkit-text-fill-color: #000000;
+}
+
+.para_redimir {
+    border-radius: 70px;
+    font-size: 2.5rem;
+    padding: 0 1rem;
+    font-weight: 900;
+    font-style: 800;
+    font-style: italic;
+    color: white;
+    -webkit-text--width: 0px;
+    text-shadow: -1px 0px 5px rgba(250, 255, 94, 0.75);
+}
+
+.inputControl {
+    padding: 1rem 0;
+    border: .01rem solid #BEBEBE;
+    outline: none;
+    text-indent: 10px;
+    font-family: var(--font-sans);
+    font-weight: 400;
+    border-radius: 2rem;
+    font-size: 16px;
+}
+
+.img-felicitaciones {
+    width: 280px;
+}
+
+.inputControl::placeholder {
+    font-family: var(--font-sans);
+    color: #686868;
+    font-weight: 400;
+    font-style: italic;
+    letter-spacing: 2px;
+
+}
+
+.inputControl:hover {
+    border: 0.01rem solid #FF2E22;
+}
+
+.inputControl:focus {
+    border-color: #FF2E22;
+    box-shadow: 0 1px 1px rgba(255, 255, 255, 0)inset,
+        0 0 8px rgba(255, 255, 255, 0);
+    outline: none !important;
+}
+
+.swal2-success-circular-line-left {
+    background: none;
+}
+
+.swal2-success-fix {
+    background: none;
+}
+
+.swal2-success-circular-line-right {
+    background: none;
+}
+
+.mycheck {
+    font-size: 1.5rem;
+}
+
+.swal2-styled.swal2-confirm {
+    background-color: #FF2E22;
+    color: white;
+    font-weight: 800;
+}
+
+.swal2-title {
+    color: white;
+    font-weight: 900;
+}
+
+.swal2-html-container {
+    color: white;
+}
+
+.labelAcepto {
+    font-family: var(--font-sans);
+    font-weight: 500;
+    font-style: italic;
+    font-size: 1rem;
+}
+
+
+.img_felicitaciones {
+    width: 280px;
+}
+
+.text_felicitaciones {
+    -webkit-text--width: 0px;
+    font-weight: 700;
+    font-style: italic;
+    text-shadow: -1px 0px 5px rgba(250, 255, 94, 0.75);
+}
+
+.datos-registrados {
+    font-style: italic;
+}
+
+.premio {
+    width: 280px;
+}
+
+
+.trapezoide {
+    background-color: #E50013;
+    transform: skew(-25deg);
+    transform-origin: center;
+    box-shadow: 12px 11px 1px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 12px 11px 1px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 12px 11px 1px 0px rgba(0, 0, 0, 0.75);
+}
+
+.trapezoide h2 {
+    transform: skew(25deg);
+    transform-origin: center;
+}
+
+.estos_son {
+    color: #E50013;
+    font-style: italic;
+    font-size: 1.1rem;
+    font-weight: 900;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #ffffff;
+    -webkit-text-fill-color: #E50013;
+    line-height: 16px;
+}
+
+.trapezoide .grandes_ganadores {
+    font-family: var(--font-sans);
+    font-weight: 900;
+    font-size: 1.4rem;
+    font-style: italic;
+    -webkit-text--width: 1px;
+    -webkit-text--color: #ffffff;
+    -webkit-text-fill-color: #ffffff;
+    line-height: 16px;
+}
+
+.logo-recargate-r,
+.logo-fanalca-r {
+    width: 120px;
+}
+
+.border-vertical {
+    border-right: 2px solid white;
+}
+
+.border-vertical-3 {
+    border-right: 2px solid white;
+    border-top: 2px solid white;
+}
+
+.logo-recargate-2 {
+    width: 300px;
+}
+
+.cont-novelbat .logo-yuasa {
+    width: 200px;
+}
+
+.border-vertical-4 {
+    border-top: 2px solid white;
+}
+
+.img_rombo {
+    width: 280px;
+}
+
+.total_ganadores {
+    position: relative;
+}
+
+.region {
+    font-style: italic;
+    font-weight: 800;
+    font-family: var(--font-sans);
+}
+
+.texto-gandor {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 76%;
+    left: 15%;
+    font-size: 1.3rem;
+    color: white;
+    font-weight: 900;
+    font-style: italic;
+}
+
+.texto-apellido {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 86%;
+    left: 30%;
+    font-size: 1.3rem;
+    color: white;
+    font-weight: 900;
+    font-style: italic;
+}
+
+.imagen-fondo {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.imagen-fondo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform: scale(1.1);
+    transition: transform 1s ease-in-out;
+}
+
+.container_logo_lr {
+    position: relative;
+}
+
+.logo-sd {
+    position: absolute;
+    bottom: 0;
+    right: -10%;
+}
+
+.novelbat_8 {
+    width: 280px;
+
+}
+
+.cont_texto {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 72%;
+    left: calc(0% - 2px);
+    font-size: 2rem;
+    color: white;
+    z-index: 1000;
+}
+
+.img_nombre {
+    width: 100%;
+}
+
+.felicidades_8 {
+    width: 280px;
+
+}
+
+.texto_8 {
+    font-size: 1rem;
+    font-weight: 600;
+    font-style: italic;
+    color: white;
+}
+
+.premio_8 {
+    width: 280px;
+}
+
+@media (min-device-width:576px) {
+
+
+    .btn_redimir {
+        font-size: 2rem;
+    }
+
+    .logo-recargate-2 {
+        width: 520px;
+    }
+
+    .trapezoide .estos_son {
+        -webkit-text--width: 5px;
+        font-size: 1.6rem;
+        line-height: 18px;
+    }
+
+    .trapezoide .grandes_ganadores {
+        line-height: 50px;
+        font-size: 2rem;
+    }
+
+    .parent-puntajes {
+        height: 100vh;
+    }
+
+    .logo-recargate-r,
+    .logo-fanalca-r {
+        width: 220px;
+    }
+
+    .cont-novelbat {
+        position: relative;
+    }
+
+    .cont-novelbat .logo-yuasa {
+        position: fixed;
+        width: 300px;
+        left: 0%;
+    }
+
+    .img-felicitaciones {
+        width: 560px;
+    }
+
+    .cont-logo-fanalca-2 .logo-fanalca {
+        width: 130px;
+    }
+
+    .img-22 {
+        width: 530px;
+    }
+
+    .numero-encima {
+        top: 30%;
+        left: 8%;
+    }
+
+    .texto-gandor {
+        top: 76%;
+        left: 32%;
+    }
+
+    .texto-encima {
+        font-size: 1.5rem;
+    }
+
+    .texto-apellido {
+        top: 86%;
+        left: calc(40% - 20px);
+        font-size: 1.3rem;
+    }
+
+ 
+    .logo-recargate-r {
+        width: 200px;
+    }
+
+    .logo-fanalca-r {
+        width: 220px;
+    }
+
+    .border-vertical-4 {
+        border-top: none;
+    }
+
+    .yuasa-7 {
+        width: 400px;
+    }
+
+    .tiempo-encima {
+        top: 30%;
+        left: 89%;
+        font-size: 2rem;
+    }
+
+    .trapezoide {
+        padding: 1rem 4rem !important;
+    }
+
+    .novelbat_8 {
+        width: 380px;
+
+    }
+    .cont_felicitaciones{
+        height: auto;
+    }
+    .felicidades_8 {
+        width: 380px;
+
+    }
+
+    .texto_8 {
+        font-size: 1.3rem;
+    }
+
+    .premio_8 {
+        width: 380px;
+    }
+}
+
+@media (min-device-width:768px) {
+
+    .text-container-conectate,
+    .comienza {
+        font-size: 1.5rem;
+    }
+
+    .logo-fanalca {
+        width: 200px;
+    }
+
+    .logo-recargate-4 {
+        width: 440px;
+    }
+
+    .logo-recargate {
+        width: 540px;
+    }
+
+    .cont-novelbat .logo-yuasa {
+        width: 350px;
+    }
+
+    .logo-recargate-r {
+        width: 400px;
+    }
+
+    .logo-fanalca-r {
+        width: 220px;
+    }
+
+    .encima {
+        width: 70%;
+        top: calc(32% + 3px);
+        left: calc(15% - 4px)
+    }
+
+    .primero {
+        margin-top: 3rem;
+    }
+
+    .text-container-conectate {
+        line-height: 1.5rem;
+    }
+
+    .teminos-condiciones {
+        font-size: 4rem;
+    }
+
+    .cont-logo-yuasa-2 .logo-yuasa {
+        width: 400px;
+    }
+
+    .cont-logo-fanalca-2 .logo-fanalca {
+        width: 200px;
+    }
+
+    .logo-recargate-2 {
+        width: 620px;
+    }
+
+    .ingresa_datos {
+        font-size: 2rem;
+        -webkit-text-stroke-width: 1.4px;
+        ;
+    }
+
+    .img-22 {
+        width: 700px;
+    }
+
+    .parent-9 {
+        height: 100vh;
+    }
+
+    .img-felicitaciones {
+        width: 680px;
+    }
+
+    .numero-encima {
+        top: 25%;
+        left: 7%;
+        font-size: 2rem;
+    }
+
+    .texto-gandor {
+        top: 76%;
+        left: calc(20% + 20px)
+    }
+
+    .texto-apellido {
+        top: 86%;
+        left: calc(20% + 30px);
+        font-size: 1.3rem;
+    }
+
+    /* 
+    .pregunta-encima {
+        top: 55%;
+        left: 8%;
+        font-size: 1.5rem;
+        padding-right: 5rem !important;
+    } */
+
+    .tiempo-encima {
+        top: 26%;
+        left: 88.5%;
+        font-size: 3rem;
+    }
+
+    .cont-ingresa .ingresa-trivia {
+        font-size: 1.2rem;
+    }
+
+    svg {
+        transform: scale(3);
+    }
+
+    .premio {
+        width: 380px;
+    }
+
+    .parent-puntajess {
+        height: 100vh;
+    }
+
+    .para_redimir {
+        padding: 0 3rem;
+    }
+
+    .yuasa-7 {
+        width: 600px;
+    }
+
+    .btn_puntos {
+        font-size: 5rem;
+        padding: 0 10rem;
+    }
+
+    .btn_redimir {
+        font-size: 1.5rem;
+        padding: .5rem 3.5rem;
+    }
+
+    .trapezoide .estos_son {
+        -webkit-text-stroke-width: 2px;
+        font-size: 2rem;
+    }
+
+    .trapezoide .grandes_ganadores {
+        font-size: 2.9rem;
+    }
+
+    .trapezoide .grandes_ganadores {
+        -webkit-text--width: 6px;
+    }
+
+    .text-felicitaciones {
+        font-size: 5rem;
+        padding: 1rem 0rem;
+    }
+
+    .logo-recargate-6 {
+        width: 260px;
+    }
+}
+
+@media (min-width:920px) {
+    .texto_8 {
+        text-align: justify;
+        margin-right: 8rem !important;
+    }
+
+    .encima {
+        width: 60%;
+        top: calc(38% + 3px);
+        left: calc(17% - 4px);
+    }
+}
+
+@media (min-width:1200px) {
+
+    .text-container-conectate,
+    .comienza {
+        font-size: 2rem;
+    }
+
+    .text-container-conectate {
+        line-height: 2.4rem;
+    }
+
+    .logo-recargate {
+        width: 840px;
+    }
+
+    .comienza {
+        padding: .5rem 4rem;
+    }
+
+    li {
+        line-height: 38px;
+    }
+
+    .parent-9 {
+        height: auto;
+    }
+
+    .img-22 {
+        width: 920px;
+    }
+
+    .img_rombo {
+        width: 480px;
+    }
+
+    .logo-fanalca-r {
+        width: 280px;
+    }
+
+    .numero-encima {
+        top: 28%;
+        left: 7%;
+        font-size: 2.5rem;
+    }
+
+    .cont-novelbat .logo-yuasa {
+        width: 450px;
+    }
+
+    .yuasa-7 {
+        width: 800px;
+    }
+
+    .logo-fanalca {
+        width: 250px;
+    }
+
+    .texto-encima {
+        font-size: 2rem;
+    }
+
+    /* .pregunta-encima {
+        top: 65%;
+        left: 8%;
+        font-size: 1.8rem;
+        padding-right: 4rem !important;
+    } */
+
+    .img-felicitaciones {
+        width: 720px;
+    }
+
+    .ingresar {
+        height: auto;
+    }
+
+    .tiempo-encima {
+        top: 26%;
+        font-size: 4rem;
+    }
+
+    .cont-logo-yuasa-2 .logo-yuasa {
+        width: 500px;
+    }
+
+    .texto-gandor {
+        font-size: 2rem;
+        top: 76%;
+        left: calc(12% + 10%)
+    }
+
+    .texto-apellido {
+        font-size: 2rem !important;
+        top: 87%;
+        left: calc(20% + 5%);
+    }
+
+    .cont-ingresa .ingresa-trivia {
+        font-size: 2rem;
+    }
+
+    .logo-recargate {
+        width: 740px;
+    }
+
+    svg {
+        transform: scale(3);
+    }
+
+    .cont-logo-fanalca-2 .logo-fanalca {
+        width: 300px;
+    }
+
+    .parent-puntajes {
+        height: 100%;
+    }
+
+    .parent-puntajess {
+        height: auto;
+    }
+
+    .premio {
+        width: 480px;
+    }
+
+    .logo-recargate-2 {
+        margin-top: -10rem;
+        width: 920px;
+    }
+
+    .img_felicitaciones {
+        width: 520px;
+    }
+
+    .text_felicitaciones {
+        font-size: 5rem;
+    }
+
+    .datos-registrados {
+        font-size: 1.8rem;
+        font-weight: 500;
+        padding: 1rem;
+    }
+
+    .primero {
+        width: 100%;
+    }
+
+    .ingresa_datos {
+        padding: 20px 0 0 0;
+        margin: 0;
+        font-size: 3rem;
+        -webkit-text-stroke-width: 1.4px;
+        ;
+    }
+
+    .encima {
+        top: calc(26% + 3px);
+        left: calc(15% + 0px);
+        width: 70%;
+    }
+
+    .para_redimir {
+        padding: 0 5rem;
+        font-size: 4rem;
+    }
+
+    .region {
+        font-size: 2rem;
+    }
+
+    .ganar {
+        font-size: 3rem;
+    }
+
+    .lo_lamento {
+        font-size: 4vw;
+    }
+
+    .btn_redimir {
+        padding: .5rem 10rem;
+    }
+
+    .premio_8 {
+        width: 540px;
+    }
+
+    .novelbat_8 {
+        width: 520px;
+    }
+
+    .felicidades_8 {
+        width: 520px;
+    }
+
+    .texto_8 {
+        padding-top: 2rem;
+        font-size: 1.3rem;
+    }
+
+}
+
+@media (min-device-width:1500px) {
+    .trapezoide .estos_son {
+        -webkit-text-stroke-width: 2px;
+        font-size: 2.5rem;
+    }
+
+    .trapezoide .grandes_ganadores {
+        font-size: 3.5rem;
+    }
+
+    .trapezoide .grandes_ganadores {
+        -webkit-text--width: 6px;
+    }
+
+    .img-22 {
+        width: 1200px;
+    }
+
+    .img_felicitaciones {
+        width: 680px;
+    }
+
+    .text_felicitaciones {
+        font-size: 5rem;
+    }
+
+    .numero-encima {
+        top: 28%;
+        left: 7%;
+        font-size: 3rem;
+    }
+
+    .parent-puntajess {
+        height: 100vh;
+    }
+
+    .cont-ingresa .ingresa-trivia {
+        font-size: 2rem;
+    }
+
+    .btn_redimir {
+        font-size: 2.5rem;
+      }
+
+    .encima {
+        top: calc(25% + 3px);
+        left: calc(15% + 0px);
+    }
+
+    .premio {
+        width: 580px;
+    }
+
+    .cont-logo-yuasa-2 .logo-yuasa {
+        width: 600px;
+    }
+
+    .texto-encima {
+        font-size: 2rem;
+    }
+
+    .tiempo-encima {
+        top: 24%;
+        left: 87.8%;
+        font-size: 6em;
+    }
+
+    .parent-9 {
+        height: 100vh;
+    }
+
+    .texto-gandor {
+        top: 75%;
+        left: calc(20% + 3%);
+        font-size: 2.5rem;
+    }
+
+    .texto-apellido {
+        top: 86%;
+        left: calc(25% + 3%);
+        font-size: 2.5rem !important;
+    }
+
+    .logo-s {
+        width: 500px;
+    }
+
+    .premio_8 {
+        width: 540px;
+    }
+
+    .novelbat_8 {
+        width: 620px;
+    }
+
+    .felicidades_8 {
+        width: 670px;
+    }
+
+    .texto_8 {
+        padding-top: 2rem;
+        font-size: 1.3rem;
+    }
+
+}
