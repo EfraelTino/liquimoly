@@ -26,7 +26,7 @@
 <body>
     <div class="row m-0 p-0 pt-3 container-fluid">
         <div class="col-12 d-flex justify-content-center justify-content-sm-end">
-            <button class="btn-ingresar" style="background: #fff; color: #0142AA; box-shadow: 0px 0px 42px 0px rgba(255, 255, 255, 0.75);
+            <button class="btn-ingresar" onclick="vertabla()" style="background: #fff; color: #0142AA; box-shadow: 0px 0px 42px 0px rgba(255, 255, 255, 0.75);
             -webkit-box-shadow: 0px 0px 42px 0px rgba(255, 255, 255, 0.75);
             -moz-box-shadow: 0px 0px 42px 0px rgba(255, 255, 255, 0.75);"> VER TABLA DE PUNTUACION </button>
         </div>
@@ -61,7 +61,7 @@
                                 <input class="form-control" placeholder="Email" required type="email" id="pass"
                                     name="pass">
                             </div>
-                            <div class="form-group form-1 col-sm-6 col-md-6 col-lg-2 d-sm-flex flex-sm-column">
+                            <div class="form-group form-1 col-sm-6 col-md-6 col-lg-3 d-sm-flex flex-sm-column">
                                 <label for="" class="label-title py-1">*TELÉFONO</label>
                                 <input class="form-control" placeholder="Teléfono" required type="email" id="pass"
                                     name="pass">
@@ -72,7 +72,7 @@
                                     name="pass">
                             </div> -->
                             <div
-                                class="col-sm-12 col-md-12 col-lg-2 d-none d-sm-flex align-items-end justify-content-sm-center py-sm-3 py-lg-0">
+                                class="col-sm-12 col-md-12 col-lg-3 d-none d-sm-flex align-items-end justify-content-sm-end py-sm-3 py-lg-0">
                                 <button class="btn-ingresar" style="font-size: 2.3rem; border-radius:0;" onclick="pasar()">INGRESAR</button>
                             </div>
                         </div>
@@ -91,6 +91,9 @@
         <script>
             function pasar (){
                 window.location.href="2.html";
+            }
+            function vertabla(){
+                window.location.href="tabla.html";
             }
         </script>
 </body>
